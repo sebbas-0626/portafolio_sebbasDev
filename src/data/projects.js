@@ -6,15 +6,15 @@ export const projectsData = [
     image: "",
     tags: [
       {
-        icon: "/public/img/skills/angular.svg",
+        icon: "/img/skills/angular.svg",
         name: "Angular",
       },
       {
-        icon: "/public/img/skills/Swagger.svg",
+        icon: "/img/skills/Swagger.svg",
         name: "Swagger",
       },
       {
-        icon: "/public/img/skills/node.svg",
+        icon: "/img/skills/node.svg",
         name: "Node.js",
       },
       {
@@ -22,7 +22,7 @@ export const projectsData = [
         name: "TypeScript",
       },
       {
-        icon: "/public/img/skills/sequelize.svg",
+        icon: "/img/skills/sequelize.svg",
         name: "Sequelize",
       },
     ],
@@ -32,10 +32,10 @@ export const projectsData = [
     title: "Pagina web cootranshuila ltda",
     description:
       "Pagina web para venta de pasajes en linea, con pasarela de pagos incluida.",
-    image: "/public/img/project/web_cootranshuila.png",
+    image: "/img/project/web_cootranshuila.png",
     tags: [
       {
-        icon: "/public/img/skills/nextJS.svg",
+        icon: "/img/skills/nextJS.svg",
         name: "Nest.js",
       },
       {
@@ -43,7 +43,7 @@ export const projectsData = [
         name: "Vite",
       },
       {
-        icon: "/public/img/skills/tailwind.svg",
+        icon: "/img/skills/tailwind.svg",
         name: "Tailwind CSS",
       },
       {
@@ -71,7 +71,7 @@ export const projectsData = [
     title: "Sistema de Inventario para Panaderia",
     description:
       "Sistema de Invenatrio para una panaderia, permite gestionar productos, categorias, proveedores y ventas.",
-    image: "/public/img/project/sitema_inventario.png",
+    image: "/img/project/sitema_inventario.png",
     tags: [
       {
         icon: "/img/skills/vue.svg",

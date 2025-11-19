@@ -8,7 +8,7 @@
 
 
     <div class="flex flex-wrap justify-center gap-8">
-      <div class="card"><img src="/img/rivera-huilaWeb.png" alt="" class="h-48">
+      <div class="card"><img src="/img/project/rivera-huilaWeb.png" alt="" class="h-48">
         <div class="card__content">
           <p class="card__title">Rivera Huila Web</p>
           <ul class="flex gap-x-2 flex-row mb-2">
@@ -33,7 +33,7 @@
         </div>
       </div>
       <!-- 2 -->
-      <div class="card"><img src="/img/sitema_inventario.png" alt="" class="h-48">
+      <div class="card"><img src="/img/project/sitema_inventario.png" alt="" class="h-48">
         <div class="card__content">
           <p class="card__title">Sistema de inventario</p>
           <ul class="flex gap-x-2 flex-row mb-2">
@@ -61,7 +61,7 @@
         </div>
       </div>
       <!-- 3 -->
-      <div class="card"><img src="/img/cootranshuila.png" alt="">
+      <div class="card"><img src="/img/project/cootranshuila.png" alt="">
         <div class="card__content">
           <p class="card__title">
             Pagina web cootranshuila
@@ -87,7 +87,7 @@
       </div>
 
       <!-- four -->
-      <div class="card"><img src="/img/hermes.png" alt="">
+      <div class="card"><img src="/img/project/hermes.png" alt="">
         <div class="card__content">
           <p class="card__title">Backend Cootranshuila ltda</p>
           <ul class="flex gap-x-2 flex-row mb-2">
