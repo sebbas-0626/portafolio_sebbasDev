@@ -3,7 +3,7 @@ export const projectsData = [
     title: "Proyecto microservicios red social ",
     description:
       "clon de threand instagram con arquitectura de microservicios, usando node + sequelize para el backend y angular para el frontend.",
-    image: "/public/img/project/red-social.png",
+    image: "/img/project/red-social.png",
     tags: [
       {
         icon: "/img/skills/angular.svg",
