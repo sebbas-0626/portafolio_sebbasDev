@@ -1,6 +1,5 @@
 <template>
   <div class="projects-index">
-    <!-- <Projects /> -->
     <CardProject :projects="projectsData" :isShow="true"/>
   </div>
 </template>

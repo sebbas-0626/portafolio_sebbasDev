@@ -6,29 +6,29 @@
       </div>
       <h1
         class="text-black dark:text-white text-3xl md:text-4xl lg:text-5xl font-bold flex justify-center flex-row mb-4 transition hover:scale-110">
-        <span class="text-blue-600">Hey</span>, soy Sebastian
+        <span class="text-blue-600">Hola</span>, soy Sebastian
       </h1>
       <div class="flex justify-center items-center py-6">
         <BadgeVue>Disponible para trabajar</BadgeVue>
       </div>
       <h2 class="text-black dark:text-white text-sm md:text-base lg:text-lg">
-        🚀 Desarrollador Web. De Colombia, <span class="text-blue-600 font-bold">con experiencia en proyectos </span>
+        🚀 Desarrollador Web.<span class="text-blue-600 font-bold">con 2 años de experiencia en proyectos </span>
         colaborativos en empresas,
         <span class="text-blue-600 font-bold">
           aportando en el desarrollo
         </span>
         tanto en el frontend como en el
         <span class="text-blue-600 font-bold"> backend. </span>
-        Mi experiencia diaria me ha permitido entender
-        <span class="text-blue-600 font-bold"> la importancia del </span>
+        Mi trayectoria me ha enseñado el valor de la disciplina y la mejora continua en cada
+        <span class="text-blue-600 font-bold">línea de código.</span>
 
-        trabajo constante y dedicado.
         <span class="text-blue-600 font-bold">
-          Descubre más sobre mis contribuciones
+          Te invito
+          a explorar mis contribuciones técnicas en mis
         </span>
-        en mis
         <span class="text-blue-600 font-bold"> repositorios de GitHub,</span>
-        donde reflejo mi pasión y habilidades técnicas. 💻✨
+        repositorios de GitHub. 💻✨
+
       </h2>
       <nav class="flex gap-4 mt-8 flex-wrap justify-center">
         <SocialPillVue href="/src/assets/cv/Dev-SebastianTovarChavez.pdf" download>
