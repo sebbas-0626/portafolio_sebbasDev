@@ -1,6 +1,6 @@
 <template>
 <div class="checkbox-wrapper-51">
-  <input id="cbx-51" type="checkbox" :checked="isDark" @change="toggleDarkMode">
+  <input id="cbx-51" type="checkbox" :checked="isDark" @change="handleInputCheckbox">
   <label class="toggle" for="cbx-51">
     <span>
       <svg viewBox="0 0 10 10" height="10px" width="10px">
@@ -12,23 +12,38 @@
 </template>
 
 <script>
-import {ref} from 'vue';
+import { ref } from 'vue';
 export default {
-  setup(){
-    const isDark = ref(false);
-    const toggleDarkMode = ({target: {value}}) => {
-      // cambiar el estado del switch
-      isDark.value = !isDark.value;
+  setup() {
+    const keyThemeOfLocalStorage = 'theme_selected';
+    const isDark = ref(getTheme());
 
-      if(isDark.value){
-        document.documentElement.classList.add('dark');
-      }else{
-        document.documentElement.classList.remove('dark');
-      }
+    function handleInputCheckbox() {
+      isDark.value = !isDark.value;
+      toggleDarkMode(isDark.value);
     }
+
+    function toggleDarkMode(isModeDark) {
+      document.documentElement.classList[isModeDark ? 'add' : 'remove']('dark');
+      localStorage.setItem(keyThemeOfLocalStorage, isModeDark ? 'dark' : 'light');
+    }
+
+    function getTheme() {
+      const themeOfLocalStorage = localStorage.getItem(keyThemeOfLocalStorage);
+      if (themeOfLocalStorage) {
+        const isModeDark = themeOfLocalStorage === 'dark';
+        toggleDarkMode(isModeDark);
+        return isModeDark;
+      }
+
+      const isModeDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      toggleDarkMode(isModeDark);
+      return isModeDark;
+    }
+
     return {
       isDark,
-      toggleDarkMode,
+      handleInputCheckbox,
     }
   }
 }
