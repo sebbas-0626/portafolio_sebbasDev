@@ -1,4 +1,3 @@
-
 <template>
   <header
     class="font-sans flex items-center mx-auto py-10 sticky top-0 w-full md:w-[1120px] z-10  text-black/80 dark:text-white/80">
@@ -17,14 +16,11 @@
         <LightDark />
 
         <a href="#experiencia" class="nav-link hover:bg-white/10 rounded-full px-3 transition">Experience</a>
-        <a href="#projects" class="nav-link hover:bg-white/10 rounded-full px-3 transition">Projects</a>
-        <a href="#about-me" class="nav-link hover:bg-white/10 rounded-full px-3 transition">About me</a>
+        <router-link to="/projects"
+          class="nav-link hover:bg-white/10 rounded-full px-3 transition">Projects</router-link>
+        <a href="#about-me" class="nav-link hover:bg-white/10 rounded-full px-3 transition">sobre me</a>
 
-        <!-- <a
-          href="/#sobre-mi"
-          class="hover:bg-white/10 rounded-full px-3 transition"
-          >Contact</a
-        > -->
+
       </div>
     </nav>
   </header>
@@ -36,8 +32,8 @@ import CodeVue from "./icons/Code.vue";
 export default {
   components: { LightDark, CodeVue },
   mounted() {
-    // Manejar clic en enlaces de navegación
-    const navLinks = document.querySelectorAll('.nav-link');
+    // Manejar clic en enlaces de navegación (solo para anclas #)
+    const navLinks = document.querySelectorAll('a.nav-link[href^="#"]');
     navLinks.forEach(link => {
       link.addEventListener('click', this.scrollToSection);
     });

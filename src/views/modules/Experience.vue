@@ -72,7 +72,7 @@
 </template>
 
 <script>
-import Briefcase from "./icons/Briefcase.vue";
+import Briefcase from "@/components/icons/Briefcase.vue";
 export default {
   components: { Briefcase },
 };

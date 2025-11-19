@@ -1,18 +1,15 @@
 <script setup>
-import HeaderVue from "@/components/Header.vue";
-import IndexVue from "@/components/Index.vue";
-import Experience from "@/components/Experience.vue";
-import ProjectsVue from "@/components/Projects.vue";
-import AboutMeVue from "@/components/AboutMe.vue";
-import Footer from "@/components/Footer.vue";
-
+import Info from "@/views/modules/info.vue";
+import Experience from "@/views/modules/Experience.vue";
+import ProjectsVue from "@/views/modules/Projects.vue";
+import Skills from "@/views/modules/skills.vue";
+import AboutMe from "./modules/AboutMe.vue";
 </script>
 
 <template>
-  <HeaderVue />
-  <IndexVue />
+  <Info />
+  <Skills />
   <Experience/>
   <ProjectsVue/>
-<AboutMeVue/>
-  <Footer />
+  <AboutMe />
 </template>

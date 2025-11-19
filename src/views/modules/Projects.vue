@@ -7,10 +7,8 @@
     </h2>
 
 
-
-
     <div class="flex flex-wrap justify-center gap-8">
-      <div class="card"><img src="/src/assets/img/rivera-huilaWeb.png" alt="" class="h-48">
+      <div class="card"><img src="/img/rivera-huilaWeb.png" alt="" class="h-48">
         <div class="card__content">
           <p class="card__title">Rivera Huila Web</p>
           <ul class="flex gap-x-2 flex-row mb-2">
@@ -35,7 +33,7 @@
         </div>
       </div>
       <!-- 2 -->
-      <div class="card"><img src="/src/assets/img/sitema_inventario.png" alt="" class="h-48">
+      <div class="card"><img src="/img/sitema_inventario.png" alt="" class="h-48">
         <div class="card__content">
           <p class="card__title">Sistema de inventario</p>
           <ul class="flex gap-x-2 flex-row mb-2">
@@ -63,7 +61,7 @@
         </div>
       </div>
       <!-- 3 -->
-      <div class="card"><img src="/src/assets/img/cootranshuila.png" alt="">
+      <div class="card"><img src="/img/cootranshuila.png" alt="">
         <div class="card__content">
           <p class="card__title">
             Pagina web cootranshuila
@@ -89,7 +87,7 @@
       </div>
 
       <!-- four -->
-      <div class="card"><img src="/src/assets/img/hermes.png" alt="">
+      <div class="card"><img src="/img/hermes.png" alt="">
         <div class="card__content">
           <p class="card__title">Backend Cootranshuila ltda</p>
           <ul class="flex gap-x-2 flex-row mb-2">
@@ -119,10 +117,10 @@
 
 <script>
 import Code from '@/components/icons/Code.vue';
-import IconLaravel from './iconsCardsProjects/IconLaravel.vue';
-import SocialPillVue from './icons/SocialPill.vue';
-import IconAstroVue from './iconsCardsProjects/IconAstro.vue';
-import IconVueVue from './iconsCardsProjects/IconVue.vue';
+import IconLaravel from '@/components/iconsCardsProjects/IconLaravel.vue';
+import SocialPillVue from '@/components/icons/SocialPill.vue';
+import IconAstroVue from '@/components/iconsCardsProjects/IconAstro.vue';
+import IconVueVue from '@/components/iconsCardsProjects/IconVue.vue';
 export default {
   components: {
     Code,
@@ -211,4 +209,5 @@ export default {
   background: transparent;
   color: #777;
   border: 1px solid #777;
-}</style>
+}
+</style>
