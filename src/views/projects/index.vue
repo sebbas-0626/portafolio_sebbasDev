@@ -5,7 +5,6 @@
   </div>
 </template>
 <script setup>
-import Projects from '@/views/modules/Projects.vue';
 import CardProject from '@/components/CardProject.vue';
 import { projectsData } from '@/data/projects.js';
 </script>
