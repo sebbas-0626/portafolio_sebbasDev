@@ -50,7 +50,7 @@
       <!-- boton ver todos los proyectos -->
       <div v-if="isShow" class="flex justify-center mt-8">
         <router-link to="/projects"
-          class="inline-block rounded-lg bg-blue-600 py-3 px-6 text-center text-sm font-bold uppercase text-white shadow-md hover:shadow-lg hover:bg-blue-500 transition-all duration-200">
+          class="inline-block rounded-lg bg-black py-3 px-6 text-center text-sm font-bold uppercase text-white shadow-md hover:shadow-lg hover:bg-gray-700 transition-all duration-200 dark:bg-white dark:text-black dark:hover:bg-gray-300">
           Ver Todos los Proyectos
         </router-link>
       </div>
